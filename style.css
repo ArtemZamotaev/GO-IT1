@@ -1,0 +1,77 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    height: 1319px;
+    box-shadow: 10px 5px 5px grey;
+}
+.left{
+    width: 370px;
+    background-color: rgb(6, 0, 24);
+    height: 1319px;
+    color: white;
+}
+.right{
+    width: 81%;
+    height: 1319px;
+    background-color: rgb(247, 244, 244);
+}
+.contact{
+    color:rgba(255, 255, 255, 0.774)
+}
+.contact b{
+    font-size: 22px;
+    color: white;
+}
+.photo{
+    margin-top: 50px;
+    width: 370px;
+    height: 354px;
+    background: url("./photo.png");
+}
+.bottom{
+    margin-left: 20px;
+}
+li{
+    font-size: 20px;
+    color: white;
+}
+.main-right{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+h1{
+    font-size: 39px;
+}
+.main-right p{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ ol li{
+     color: black;
+ }
+ h3 b {
+     color: orange;
+ }
+ .fff{
+     color: rgba(0, 0, 0, 0.329);
+ }
+.main-right ul li{
+    color: black;
+    width: 509px;
+}
+ul{
+    position: relative;
+    right: 20px;
+}
+.techskills ul li::marker{
+    color: orange;
+}
+.softskills ul li::marker{
+    color: orange;
+}
